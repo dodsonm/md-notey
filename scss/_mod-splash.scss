@@ -1,0 +1,80 @@
+$default-border: solid 1px #aaa;
+/**
+  Suffix Definitions for Media Queries
+  -mp: at mobile portrait resolution
+  -tp: at tablet portrait resolution
+  -dt: at desktop resolution
+  -hd: at HD desktop resolution
+ */
+ $GOLDEN_RATIO: 1.618;
+ $splash-height-dt: 24rem;
+ $splash-width-dt: $splash-height-dt * $GOLDEN_RATIO;
+
+.notey-splash {
+  color: #444;
+  font-family: 'Cabin', sans-serif;
+  height: $splash-height-dt;
+  left: 50%;
+  position: fixed;
+  top: 33%;
+  transform: translate(-50%, -33%);
+  width: $splash-width-dt;
+}
+.notey-head {
+  background-color: #F5A623dd;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  color: white;
+  font-family: 'Cabin Condensed', sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  height: 3rem;
+  text-align: center;
+
+  .notey-close {
+    color: #ffc;
+    font-size: 0.375em;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+}
+.notey-body {
+  border-left: $default-border;
+  border-right: $default-border;
+  font-size: 1.4em;
+  height: 19rem;
+  line-height: 1.25;
+  padding: 1em;
+
+  p {
+    margin-bottom: 0.5625em;
+  }
+  a, a:visited {
+    color: darken(#88DF00, 10%);
+
+    &:hover {
+      color: #88DF00;
+    }
+  }
+}
+.notey-foot {
+  border-bottom: $default-border;
+  border-left: $default-border;
+  border-right: $default-border;
+  color: #ccc;
+  height: 2rem;
+  text-align: center;
+}
+.notey-body, .notey-foot {
+  background-color: #FFFFFFdd;
+}
+.notey-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+}

@@ -1,0 +1,78 @@
+/**
+  Suffix Definitions for Media Queries
+  -mp: at mobile portrait resolution
+  -tp: at tablet portrait resolution
+  -dt: at desktop resolution
+  -hd: at HD desktop resolution
+ */
+.notey-splash {
+  color: #444;
+  font-family: "Cabin", sans-serif;
+  height: 24rem;
+  left: 50%;
+  position: fixed;
+  top: 33%;
+  transform: translate(-50%, -33%);
+  width: 38.832rem;
+}
+
+.notey-head {
+  background-color: #F5A623dd;
+  border-top-left-radius: 0.4rem;
+  border-top-right-radius: 0.4rem;
+  color: white;
+  font-family: "Cabin Condensed", sans-serif;
+  font-size: 3em;
+  font-weight: 700;
+  height: 3rem;
+  text-align: center;
+}
+.notey-head .notey-close {
+  color: #ffc;
+  font-size: 0.375em;
+  position: absolute;
+  right: 2px;
+  top: 2px;
+}
+.notey-head .notey-close:hover {
+  color: #fff;
+}
+
+.notey-body {
+  border-left: solid 1px #aaa;
+  border-right: solid 1px #aaa;
+  font-size: 1.4em;
+  height: 19rem;
+  line-height: 1.25;
+  padding: 1em;
+}
+.notey-body p {
+  margin-bottom: 0.5625em;
+}
+.notey-body a, .notey-body a:visited {
+  color: #69ac00;
+}
+.notey-body a:hover, .notey-body a:visited:hover {
+  color: #88DF00;
+}
+
+.notey-foot {
+  border-bottom: solid 1px #aaa;
+  border-left: solid 1px #aaa;
+  border-right: solid 1px #aaa;
+  color: #ccc;
+  height: 2rem;
+  text-align: center;
+}
+
+.notey-body, .notey-foot {
+  background-color: #FFFFFFdd;
+}
+
+.notey-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=index.css.map */
