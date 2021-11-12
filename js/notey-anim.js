@@ -4,7 +4,7 @@ document.querySelectorAll('.notey-close').forEach(el => {
       y: 100,
       opacity: 0,
       duration: 0.3,
-      ease: "power1.out",
+      ease: 'power1.out',
       onComplete() {
         document.querySelector('#notey-splash-1').remove();
       }
